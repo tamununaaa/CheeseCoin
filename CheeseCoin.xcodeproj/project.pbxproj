@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9DBCDCD2AE95D9800572D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DBCDCC2AE95D9800572D5E /* AppDelegate.swift */; };
+		E9DBCDCF2AE95D9800572D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DBCDCE2AE95D9800572D5E /* ViewController.swift */; };
+		E9DBCDD12AE95D9A00572D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DBCDD02AE95D9A00572D5E /* Assets.xcassets */; };
+		E9DBCDD42AE95D9A00572D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DBCDD22AE95D9A00572D5E /* Main.storyboard */; };
+		E9DBCDDF2AE95D9A00572D5E /* CheeseCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DBCDDE2AE95D9A00572D5E /* CheeseCoinTests.swift */; };
+		E9DBCDE92AE95D9B00572D5E /* CheeseCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DBCDE82AE95D9B00572D5E /* CheeseCoinUITests.swift */; };
+		E9DBCDEB2AE95D9B00572D5E /* CheeseCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DBCDEA2AE95D9B00572D5E /* CheeseCoinUITestsLaunchTests.swift */; };
+		E9DBCDF82AE95DF600572D5E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DBCDF72AE95DF600572D5E /* Node.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DBCDDB2AE95D9A00572D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DBCDC12AE95D9800572D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DBCDC82AE95D9800572D5E;
+			remoteInfo = CheeseCoin;
+		};
+		E9DBCDE52AE95D9B00572D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DBCDC12AE95D9800572D5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DBCDC82AE95D9800572D5E;
+			remoteInfo = CheeseCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9DBCDC92AE95D9800572D5E /* CheeseCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheeseCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DBCDCC2AE95D9800572D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9DBCDCE2AE95D9800572D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9DBCDD02AE95D9A00572D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9DBCDD32AE95D9A00572D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9DBCDD52AE95D9A00572D5E /* CheeseCoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheeseCoin.entitlements; sourceTree = "<group>"; };
+		E9DBCDDA2AE95D9A00572D5E /* CheeseCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheeseCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DBCDDE2AE95D9A00572D5E /* CheeseCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseCoinTests.swift; sourceTree = "<group>"; };
+		E9DBCDE42AE95D9B00572D5E /* CheeseCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheeseCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DBCDE82AE95D9B00572D5E /* CheeseCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseCoinUITests.swift; sourceTree = "<group>"; };
+		E9DBCDEA2AE95D9B00572D5E /* CheeseCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9DBCDF72AE95DF600572D5E /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DBCDC62AE95D9800572D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBCDD72AE95D9A00572D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBCDE12AE95D9B00572D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DBCDC02AE95D9800572D5E = {
+			isa = PBXGroup;
+			children = (
+				E9DBCDCB2AE95D9800572D5E /* CheeseCoin */,
+				E9DBCDDD2AE95D9A00572D5E /* CheeseCoinTests */,
+				E9DBCDE72AE95D9B00572D5E /* CheeseCoinUITests */,
+				E9DBCDCA2AE95D9800572D5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DBCDCA2AE95D9800572D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBCDC92AE95D9800572D5E /* CheeseCoin.app */,
+				E9DBCDDA2AE95D9A00572D5E /* CheeseCoinTests.xctest */,
+				E9DBCDE42AE95D9B00572D5E /* CheeseCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DBCDCB2AE95D9800572D5E /* CheeseCoin */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBCDCC2AE95D9800572D5E /* AppDelegate.swift */,
+				E9DBCDCE2AE95D9800572D5E /* ViewController.swift */,
+				E9DBCDD02AE95D9A00572D5E /* Assets.xcassets */,
+				E9DBCDD22AE95D9A00572D5E /* Main.storyboard */,
+				E9DBCDF72AE95DF600572D5E /* Node.swift */,
+				E9DBCDD52AE95D9A00572D5E /* CheeseCoin.entitlements */,
+			);
+			path = CheeseCoin;
+			sourceTree = "<group>";
+		};
+		E9DBCDDD2AE95D9A00572D5E /* CheeseCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBCDDE2AE95D9A00572D5E /* CheeseCoinTests.swift */,
+			);
+			path = CheeseCoinTests;
+			sourceTree = "<group>";
+		};
+		E9DBCDE72AE95D9B00572D5E /* CheeseCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBCDE82AE95D9B00572D5E /* CheeseCoinUITests.swift */,
+				E9DBCDEA2AE95D9B00572D5E /* CheeseCoinUITestsLaunchTests.swift */,
+			);
+			path = CheeseCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DBCDC82AE95D9800572D5E /* CheeseCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DBCDEE2AE95D9B00572D5E /* Build configuration list for PBXNativeTarget "CheeseCoin" */;
+			buildPhases = (
+				E9DBCDC52AE95D9800572D5E /* Sources */,
+				E9DBCDC62AE95D9800572D5E /* Frameworks */,
+				E9DBCDC72AE95D9800572D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheeseCoin;
+			productName = CheeseCoin;
+			productReference = E9DBCDC92AE95D9800572D5E /* CheeseCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9DBCDD92AE95D9A00572D5E /* CheeseCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DBCDF12AE95D9B00572D5E /* Build configuration list for PBXNativeTarget "CheeseCoinTests" */;
+			buildPhases = (
+				E9DBCDD62AE95D9A00572D5E /* Sources */,
+				E9DBCDD72AE95D9A00572D5E /* Frameworks */,
+				E9DBCDD82AE95D9A00572D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DBCDDC2AE95D9A00572D5E /* PBXTargetDependency */,
+			);
+			name = CheeseCoinTests;
+			productName = CheeseCoinTests;
+			productReference = E9DBCDDA2AE95D9A00572D5E /* CheeseCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9DBCDE32AE95D9B00572D5E /* CheeseCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DBCDF42AE95D9B00572D5E /* Build configuration list for PBXNativeTarget "CheeseCoinUITests" */;
+			buildPhases = (
+				E9DBCDE02AE95D9B00572D5E /* Sources */,
+				E9DBCDE12AE95D9B00572D5E /* Frameworks */,
+				E9DBCDE22AE95D9B00572D5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DBCDE62AE95D9B00572D5E /* PBXTargetDependency */,
+			);
+			name = CheeseCoinUITests;
+			productName = CheeseCoinUITests;
+			productReference = E9DBCDE42AE95D9B00572D5E /* CheeseCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DBCDC12AE95D9800572D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E9DBCDC82AE95D9800572D5E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E9DBCDD92AE95D9A00572D5E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E9DBCDC82AE95D9800572D5E;
+					};
+					E9DBCDE32AE95D9B00572D5E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = E9DBCDC82AE95D9800572D5E;
+					};
+				};
+			};
+			buildConfigurationList = E9DBCDC42AE95D9800572D5E /* Build configuration list for PBXProject "CheeseCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9DBCDC02AE95D9800572D5E;
+			productRefGroup = E9DBCDCA2AE95D9800572D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DBCDC82AE95D9800572D5E /* CheeseCoin */,
+				E9DBCDD92AE95D9A00572D5E /* CheeseCoinTests */,
+				E9DBCDE32AE95D9B00572D5E /* CheeseCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DBCDC72AE95D9800572D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBCDD12AE95D9A00572D5E /* Assets.xcassets in Resources */,
+				E9DBCDD42AE95D9A00572D5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBCDD82AE95D9A00572D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBCDE22AE95D9B00572D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DBCDC52AE95D9800572D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBCDF82AE95DF600572D5E /* Node.swift in Sources */,
+				E9DBCDCF2AE95D9800572D5E /* ViewController.swift in Sources */,
+				E9DBCDCD2AE95D9800572D5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBCDD62AE95D9A00572D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBCDDF2AE95D9A00572D5E /* CheeseCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBCDE02AE95D9B00572D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBCDEB2AE95D9B00572D5E /* CheeseCoinUITestsLaunchTests.swift in Sources */,
+				E9DBCDE92AE95D9B00572D5E /* CheeseCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DBCDDC2AE95D9A00572D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DBCDC82AE95D9800572D5E /* CheeseCoin */;
+			targetProxy = E9DBCDDB2AE95D9A00572D5E /* PBXContainerItemProxy */;
+		};
+		E9DBCDE62AE95D9B00572D5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DBCDC82AE95D9800572D5E /* CheeseCoin */;
+			targetProxy = E9DBCDE52AE95D9B00572D5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9DBCDD22AE95D9A00572D5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DBCDD32AE95D9A00572D5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DBCDEC2AE95D9B00572D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9DBCDED2AE95D9B00572D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E9DBCDEF2AE95D9B00572D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheeseCoin/CheeseCoin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emb.CheeseCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9DBCDF02AE95D9B00572D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheeseCoin/CheeseCoin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emb.CheeseCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9DBCDF22AE95D9B00572D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emb.CheeseCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheeseCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheeseCoin";
+			};
+			name = Debug;
+		};
+		E9DBCDF32AE95D9B00572D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emb.CheeseCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheeseCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheeseCoin";
+			};
+			name = Release;
+		};
+		E9DBCDF52AE95D9B00572D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emb.CheeseCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CheeseCoin;
+			};
+			name = Debug;
+		};
+		E9DBCDF62AE95D9B00572D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emb.CheeseCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CheeseCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DBCDC42AE95D9800572D5E /* Build configuration list for PBXProject "CheeseCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBCDEC2AE95D9B00572D5E /* Debug */,
+				E9DBCDED2AE95D9B00572D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DBCDEE2AE95D9B00572D5E /* Build configuration list for PBXNativeTarget "CheeseCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBCDEF2AE95D9B00572D5E /* Debug */,
+				E9DBCDF02AE95D9B00572D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DBCDF12AE95D9B00572D5E /* Build configuration list for PBXNativeTarget "CheeseCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBCDF22AE95D9B00572D5E /* Debug */,
+				E9DBCDF32AE95D9B00572D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DBCDF42AE95D9B00572D5E /* Build configuration list for PBXNativeTarget "CheeseCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBCDF52AE95D9B00572D5E /* Debug */,
+				E9DBCDF62AE95D9B00572D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DBCDC12AE95D9800572D5E /* Project object */;
+}
